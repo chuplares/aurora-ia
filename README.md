@@ -8,6 +8,7 @@ Este repositorio utiliza a formatação, scripts e aplicação originais do proj
 
 
 Modelo lora  <a href="https://huggingface.co/chenuneris/lora-aurora">Aurora-IA</a>
+
 Dataset utilizado <a href="https://huggingface.co/datasets/chenuneris/aurora-mix-data-baize-format/tree/main">Dataset</a>
 
 Para subir a aplicação:
