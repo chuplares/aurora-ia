@@ -167,8 +167,8 @@ with gr.Blocks(css=customCSS, theme=small_and_beautiful_theme) as demo:
                     )
                     max_length_tokens = gr.Slider(
                         minimum=0,
-                        maximum=512,
-                        value=512,
+                        maximum=2048,
+                        value=1024,
                         step=8,
                         interactive=True,
                         label="Max Generation Tokens",
