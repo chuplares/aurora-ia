@@ -1,5 +1,6 @@
 <p align="center">
-<img width="500px" alt="Aurora IA" src="https://images.scrolller.com/atto/fully-automated-luxury-gay-space-communism-6qpbgez7w0-1080x648.jpg></p>
+<img width="500px" alt="Aurora IA" src="https://images.scrolller.com/atto/fully-automated-luxury-gay-space-communism-6qpbgez7w0-1080x648.jpg">
+</p>
 
 # Aurora IA 
 
