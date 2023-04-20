@@ -1,5 +1,5 @@
 <p align="center">
-<img width="500px" alt="Project Baize" src="https://user-images.githubusercontent.com/22514219/229195563-0cddfa74-e52f-4413-b4b4-e4ba489c4b3d.png">
+<img width="500px" alt="Project Baize" src="https://s1.static.brasilescola.uol.com.br/be/2022/10/simbolo-comunismo.jpg">
 </p>
 <p align="center"><a href="https://arxiv.org/abs/2304.01196">[📄 Paper]</a> | <a href="https://huggingface.co/spaces/project-baize/Baize-7B">[🤗 Demo]</a> </p>
 <hr>
