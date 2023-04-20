@@ -1,8 +1,8 @@
 <p align="center">
-<img width="500px" alt="Project Baize" src="">
+<img width="500px" alt="Aurora IA" src="">
 </p>
 
-# Aurora AI 
+# Aurora IA 
 
 Para subir a aplicação:
 
