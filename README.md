@@ -4,8 +4,11 @@
 
 # Aurora IA 
 
-Este repositorio utiliza a formatação, scripts e aplicação originais do projeto Baize-Chatbot, porém modificado com objetivo de gerar conteúdo enviesado para uma perspectiva específica. Neste projeto nao utilizamos nenhum dos dados gerados pelo projeto original do Baize.
+Este repositorio utiliza a formatação, scripts e aplicação originais do projeto <a href="https://github.com/project-baize/baize-chatbot">Baize-Chatbot</a>, porém modificado com objetivo de gerar conteúdo enviesado para uma perspectiva específica. Neste projeto nao utilizamos nenhum dos dados gerados pelo projeto original do Baize.
 
+
+Modelo lora  <a href="https://huggingface.co/chenuneris/lora-aurora">Aurora-IA</a>
+Dataset utilizado <a href="https://huggingface.co/datasets/chenuneris/aurora-mix-data-baize-format/tree/main">Dataset</a>
 
 Para subir a aplicação:
 
