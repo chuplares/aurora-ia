@@ -1,5 +1,5 @@
 <p align="center">
-<img width="500px" alt="Aurora IA" src="">
+<img width="500px" alt="Aurora IA" src="https://s1.static.brasilescola.uol.com.br/be/2022/10/simbolo-comunismo.jpg">
 </p>
 
 # Aurora IA 
