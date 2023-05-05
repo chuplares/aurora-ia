@@ -11,6 +11,10 @@ Modelo lora  <a href="https://huggingface.co/chenuneris/lora-aurora">Aurora-IA</
 
 Dataset utilizado <a href="https://huggingface.co/datasets/chenuneris/aurora-mix-data-baize-format/tree/main">Dataset</a>
 
+Modelo lora v2 <a href="https://huggingface.co/chenuneris/lora-aurorav2">Aurorav2-IA</a>
+
+Dataset aurora v2 <a href="https://huggingface.co/datasets/chenuneris/lora-aurora-v2">Dataset-v2</a>
+
 Para subir a aplicação:
 
 ```
