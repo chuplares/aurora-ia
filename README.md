@@ -17,7 +17,7 @@ Dataset aurora v2 <a href="https://huggingface.co/datasets/chenuneris/lora-auror
 
 Modelo ggml v2-ref-doc <a href="https://huggingface.co/chenuneris/aurora-v2-doc-ref">Aurora-v2-doc-ref</a>
 
-Para subir a aplicação(lora):
+Para subir a aplicação com lora (não suporta referencias):
 
 ```
 Efetue o download do modelo lora citado acima
