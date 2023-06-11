@@ -29,7 +29,7 @@ python app.py $base_model $lora_model
 
 ```
 
-instalar demendencias:
+Instalar dependencias:
 ```
 pip install -r requirements.txt
 ```
