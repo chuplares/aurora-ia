@@ -4,18 +4,18 @@
 
 # Aurora IA 
 
-Este repositorio utiliza a formatação, scripts e aplicação originais do projeto <a href="https://github.com/project-baize/baize-chatbot">Baize-Chatbot</a>, porém modificado com objetivo de gerar conteúdo enviesado para uma perspectiva específica. Neste projeto nao utilizamos nenhum dos dados gerados pelo projeto original do Baize.
+Este repositorio utiliza a formatação, scripts e aplicação originais do projeto <a href="https://github.com/project-baize/baize-chatbot">Baize-Chatbot</a>, porém modificado com objetivo de gerar conteúdo enviesado para uma perspectiva específica. Além disso desenvolvemos um script de inferencia customizado para utilizar modelos ggml. Neste projeto nao utilizamos nenhum dos dados gerados pelo projeto original do Baize.
+O script de ingestão dos arquivos foi completamente copiado do repositório <a href="https://github.com/PromtEngineer/localGPT">localGPT</a>.
 
+Modelo lora <a href="https://huggingface.co/chenuneris/lora-aurora">Aurora-IA V1</a>
 
-Modelo lora  <a href="https://huggingface.co/chenuneris/lora-aurora">Aurora-IA</a>
-
-Dataset utilizado <a href="https://huggingface.co/datasets/chenuneris/aurora-mix-data-baize-format/tree/main">Dataset</a>
+Dataset utilizado <a href="https://huggingface.co/datasets/chenuneris/aurora-mix-data-baize-format/tree/main">Dataset-V1</a>
 
 Modelo lora v2 <a href="https://huggingface.co/chenuneris/lora-aurorav2">Aurorav2-IA</a>
 
 Dataset aurora v2 <a href="https://huggingface.co/datasets/chenuneris/lora-aurora-v2">Dataset-v2</a>
 
-Para subir a aplicação:
+Para subir a aplicação(lora):
 
 ```
 Efetue o download do modelo lora citado acima
@@ -27,19 +27,16 @@ python app.py $base_model $lora_model
 
 ```
 
+instalar demendencias:
+```
+pip install -r requirements.txt
+```
+
 Para executar um chat simples com os modelos quantizados:
 ```
-Faça o download dos modelos quantizados nos links citados acima e grave o caminho absoluto do arquivo
-Clone o repositorio do llama.cpp
-git clone llama.cpp
-Acesse o diretorio
-cd llama.cpp
-Compile os arquivos para gerar os binarios
-make
-faça o download dos modelos quantizados nos links citados acima
-Acesse a pasta onde os binarios compilados estão localizados
-cd build/bin
-Execute o chat utilizando o prompt disponibilizado no repositorio
-./main -m /caminho/modelo/aurora-v2-q5-1-ggml.bin --top_p 0.95 --frequency_penalty 1.1 -s 42 -c 2048 -n 2048 -i -r "[|Human|]" --in-prefix " " -f /caminho/aurora-ai/prompts/aurorav2.txt
-
+# Faça o download do modelo no huggingface.
+# Efetue a ingestão dos arquivos para criar uma chromadb.
+python ingest.py refs/korea.txt
+# Execute o chat
+python ggml_chat.py -m ./aurorav2-ultrachat-refer-q5_1.bin --cpu 
 ```
