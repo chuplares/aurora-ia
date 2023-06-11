@@ -42,3 +42,4 @@ python ingest.py refs/korean-war-usa-clean.txt
 # Execute o chat
 python ggml_chat.py -m ./aurorav2-ultrachat-refer-q5_1.bin --cpu 
 ```
+
