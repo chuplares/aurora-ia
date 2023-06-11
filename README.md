@@ -15,6 +15,8 @@ Modelo lora v2 <a href="https://huggingface.co/chenuneris/lora-aurorav2">Aurorav
 
 Dataset aurora v2 <a href="https://huggingface.co/datasets/chenuneris/lora-aurora-v2">Dataset-v2</a>
 
+Modelo lora v2 <a href="https://huggingface.co/chenuneris/aurora-v2-doc-ref">Aurora-v2-doc-ref</a>
+
 Para subir a aplicação(lora):
 
 ```
@@ -36,7 +38,7 @@ Para executar um chat simples com os modelos quantizados:
 ```
 # Faça o download do modelo no huggingface.
 # Efetue a ingestão dos arquivos para criar uma chromadb.
-python ingest.py refs/korea.txt
+python ingest.py refs/korean-war-usa-clean.txt
 # Execute o chat
 python ggml_chat.py -m ./aurorav2-ultrachat-refer-q5_1.bin --cpu 
 ```
