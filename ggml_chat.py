@@ -59,7 +59,7 @@ if args.gpu:
                     stop=["[|Human|]", "[|AI|]", "[|HUMAN|]"],
                     n_gpu_layers=args.gpulayers, 
                     n_batch=n_batch,
-                    callback_manager=callback_manager,
+                    #callback_manager=callback_manager,
                     #max_tokens=args.max_tokens, 
                     temperature=args.temperature)
 
@@ -70,7 +70,7 @@ if args.cpu:
                      stop=["[|Human|]", "[|AI|]", "[|HUMAN|]"],
                      n_batch=n_batch,
                      n_threads=args.threads,
-                     callback_manager=callback_manager,
+                     #callback_manager=callback_manager,
                      #max_tokens=args.max_tokens,
                      temperature=args.temperature)
 
